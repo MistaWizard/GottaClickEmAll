@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Card from "./components/Card";
 import pokemon from "./pokemon.json";
 import './App.css';
