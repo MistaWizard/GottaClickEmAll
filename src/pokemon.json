@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Pikachu",
+    "image": "https://cdn.bulbagarden.net/upload/0/0d/025Pikachu.png",
+    "count": 0
+  },
+  {
+    "id": 2,
+    "name": "Bulbasaur",
+    "image": "https://cdn.bulbagarden.net/upload/2/21/001Bulbasaur.png",
+    "count": 0
+  },
+  {
+    "id": 3,
+    "name": "Charmander",
+    "image": "https://cdn.bulbagarden.net/upload/7/73/004Charmander.png",
+    "count": 0
+  },
+  {
+    "id": 4,
+    "name": "Squirtle",
+    "image": "https://cdn.bulbagarden.net/upload/3/39/007Squirtle.png",
+    "count": 0
+  },
+  {
+    "id": 5,
+    "name": "Chikorita",
+    "image": "https://cdn.bulbagarden.net/upload/b/bf/152Chikorita.png",
+    "count": 0
+  },
+  {
+    "id": 6,
+    "name": "Cyndaquil",
+    "image": "https://cdn.bulbagarden.net/upload/9/9b/155Cyndaquil.png",
+    "count": 0
+  },
+  {
+    "id": 7,
+    "name": "Totodile",
+    "image": "https://cdn.bulbagarden.net/upload/d/df/158Totodile.png",
+    "count": 0
+  },
+  {
+    "id": 8,
+    "name": "Rowlet",
+    "image": "https://cdn.bulbagarden.net/upload/7/74/722Rowlet.png",
+    "count": 0
+  },
+  {
+    "id": 9,
+    "name": "Litten",
+    "image": "https://cdn.bulbagarden.net/upload/0/0e/725Litten.png",
+    "count": 0
+  },
+  {
+    "id": 10,
+    "name": "Popplio",
+    "image": "https://cdn.bulbagarden.net/upload/d/d8/728Popplio.png",
+    "count": 0
+  },
+  {
+    "id": 11,
+    "name": "Snorlax",
+    "image": "https://cdn.bulbagarden.net/upload/f/fb/143Snorlax.png",
+    "count": 0
+  },
+  {
+    "id": 12,
+    "name": "Magikarp",
+    "image": "https://cdn.bulbagarden.net/upload/0/02/129Magikarp.png",
+    "count": 0
+  }
+]
