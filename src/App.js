@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import Card from "./components/Card";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
 import pokemon from "./pokemon.json";
 import './App.css';
 
@@ -70,20 +72,36 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+        <Wrapper>
+            <Title>Gotta Click Em All!</Title>
+            <div className="App">
+                <div className="row">
+                    <div className="col-md-4"><h3>Score: {this.state.score}</h3></div>
+                    <div className="col-md-4"><h3>High Score: {this.state.highScore}</h3></div>
+                    <div className="col-md-4"><h3>{this.state.wordsOfWisdom}</h3></div>
+                </div>
 
-          {this.state.pokemon.map(pokemon => (
-          <Card
-            clickEm={this.clickEm}
-            id={pokemon.id}
-            key={pokemon.id}
-            image={pokemon.image}
-            name={pokemon.name}
-          />
-          ))}
-        </header>
-      </div>
+                <header className="App-header">
+                    <div className="container">
+                        <div className="row">                   
+
+                            {this.state.pokemon.map(pokemon => (
+                                <div className="col-lg-3 col-sm-6">    
+                                    <Card
+                                        clickEm={this.clickEm}
+                                        id={pokemon.id}
+                                        key={pokemon.id}
+                                        image={pokemon.image}
+                                        name={pokemon.name}
+                                    />
+                                </div>
+                            ))}
+                    
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </Wrapper>
     );
   }
 }
